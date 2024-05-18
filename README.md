@@ -2,11 +2,13 @@
 
 SycrIO is a site generation framework using Ruby.
 
-## Installation
+## Usage
 
 You must have Node.js and Ruby installed, then run
 
 ```bash
+    git clone [the_repo_link]
+    cd sycrio
     bundle install #for Rake and ERB
     npm install # for server
     bundle exec rake # To build
