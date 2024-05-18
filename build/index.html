@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SycrIO app - Index</title>
+</head>
+<body>
+  <h1>ARE YOU HERE?</h1>
+
+<p><strong>Some bold text</strong></p>
+
+<p><a href="/maximum.html">Go to maximum</a></p>
+
+<p><em>Hello there, Ruby!</em>
+<button id="click-me">Click me!</button>
+<script>
+    const clickMe = document.querySelector('#click-me')
+    clickMe.addEventListener('click', function () {
+        clickMe.textContent = clickMe.textContent === 'Click me!' || clickMe.textContent === 'Click me again!' ? 'Thanks!' : 'Click me again!'
+    })
+</script></p>
+
+</body>
+</html>

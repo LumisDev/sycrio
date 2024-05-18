@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "start": "sirv build",
+    "dev": "rake serve"
+  },
+  "dependencies": {
+    "sirv-cli": "^2.0.2"
+  }
+}
